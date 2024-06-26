@@ -204,7 +204,7 @@ const SignUp = (props: Props) => {
                                 <MUILink
                                     component={Link}
                                     href={URLS.SignIn}
-                                    color="text.primary300"
+                                    color="text.secondary"
                                     variant='subtitle2'
                                     sx={{ whiteSpace: 'nowrap', cursor: 'pointer' }}
                                 >
