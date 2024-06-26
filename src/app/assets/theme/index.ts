@@ -1,6 +1,7 @@
 'use client';
-import { createTheme } from '@mui/material/styles';
+import { createTheme, PaletteColorOptions } from '@mui/material/styles';
 
+// Create a custom theme using createTheme
 const customTheme = createTheme({
     palette: {
         primary: {
@@ -25,27 +26,7 @@ const customTheme = createTheme({
         text: {
             primary: "#333333",
             secondary: "#666666",
-            primary300: "#8C8C8C",
-            white: "#ffffff",
-            dark: "#262626",
-        },
-        dark: {
-            main: "#000000",
-            800: "rgba(0,0,0,0.87)",
-            600: "rgba(0,0,0,0.6)",
-            500: "rgba(0,0,0,0.5)",
-            100: "rgba(0, 0, 0, 0.1)",
-        },
-        gray: {
-            gray1: "#333333",
-        },
-        lightGray: '#FAFBFF',
-        bgColor: '#FAFBFF',
-        offWhite: '#F8F8F8',
-        border: {
-            main: '#E2E4EC',
-        },
-        white: '#ffffff',
+        }
     },
     typography: {
         fontFamily: ['Inter', 'sans-serif'].join(','),
