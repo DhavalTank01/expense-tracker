@@ -1,0 +1,3 @@
+const COLLECTION = {
+    User: "user",
+}
